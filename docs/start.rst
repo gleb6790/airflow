@@ -33,7 +33,7 @@ The installation is quick and straightforward.
     pip install apache-airflow
 
     # initialize the database
-    airflow db init
+    airflow initdb
 
     # if you build with master
     airflow users -c --username admin --firstname Peter --lastname Parker --role Admin --email spiderman@superhero.org
